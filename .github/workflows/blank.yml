@@ -9,8 +9,7 @@ jobs:
   deploy:
     name: task2 deploy
     runs-on: ubuntu-latest
-    environment:
-    name: Deploy Task2
+    environment:Production
     strategy:
       matrix:
         node-version: [16.x]
