@@ -10,7 +10,7 @@ jobs:
     name: task2 deploy
     runs-on: ubuntu-latest
     environment:
-    name: task2 deploy
+    name: Task2
     strategy:
       matrix:
         node-version: [16.x]
