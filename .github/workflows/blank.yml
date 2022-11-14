@@ -1,4 +1,4 @@
-Name: Deploy Task2
+name: Deploy Task2
 
 on:
   push:
