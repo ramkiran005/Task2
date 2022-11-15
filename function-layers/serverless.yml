@@ -1,7 +1,7 @@
 service: service
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs16.x
 
 layers:
   testLayer:
@@ -41,4 +41,4 @@ functions:
   arnLayerFunc:
     handler: index.handler
     layers:
-      - arn:aws:lambda:us-east-2:123456789012:layer:my-layer:1
+      - arn:aws:lambda:N.Virgrnia 2:123456789012:layer:my-layer:1
