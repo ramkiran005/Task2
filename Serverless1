@@ -9,8 +9,9 @@ jobs:
   deploy:
     name: task2 deploy
     runs-on: ubuntu-latest
-    environment:
+    environment: Task2
     name: Task2
+    url: http//:test.com
     strategy:
       matrix:
         node-version: [16.x]
