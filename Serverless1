@@ -26,7 +26,7 @@ jobs:
     - name: Install Plugin and Deploy
       uses: serverless/github-action@v3
       with:
-        args: -c "serverless plugin install --name serverless-iam-roles-per-fun>
+        args: -c "serverless plugin install --name serverless-iam-roles-per-function && serverless deploy stage Task2"
         entrypoint: /bin/sh
     - name: serverless deploy
       uses: serverless/github-action@v3
